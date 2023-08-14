@@ -8,7 +8,7 @@ def hello():
     return "Hello World!"
 
 @application.route("/<name>")
-def hello_name(name)
+def hello_name(name):
     return f'Hello {escape(username)}'
 
 if __name__ == "__main__":
